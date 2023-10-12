@@ -146,11 +146,11 @@ nav .logo{
     width: 44%;
     border-radius: 11px;
 }
-.blogCard .blogText{
+.blogCard .blogread{
     text-align: center;
     padding: 20px;
 }
-.blogText a{
+.blogread a{
     width: 90px;
     padding: 7px;
     background-color: red;
