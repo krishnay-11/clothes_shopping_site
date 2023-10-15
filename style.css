@@ -7,7 +7,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color:#016A70;
     box-shadow: 0px 4px 4px 0px rgb(155, 154, 154);
     position: fixed;
     width: 100%;
@@ -43,7 +43,15 @@ nav ul{
     margin-top: 22px;
 }
 nav .logo{
-    margin-left: 23px;
+    margin-top: 0%;
+    margin-left: 25px;
+    padding: 0px;
+}
+
+nav .search{
+    margin-top: 20px;
+    border-radius: 25px;
+
 }
 .main{
     display: flex;
@@ -62,7 +70,7 @@ nav .logo{
 }
 .main img{
 
-    margin-right: 90px;
+    margin-right: 70px;
 }
 .mainText button{
     width: 140px;
@@ -94,15 +102,15 @@ nav .logo{
 }
 .card .trend{
     width: 280px;
-    background-color: #362626;
-    margin-inline: 20px;
+    background-color: #D2DE32;
+    margin-inline: 22px;
 }
 .trend img{
-    width: 85%;
+    width: 100%;
     height: 64%;
 }
 .trend .cardText{
-    padding: 10px;
+    padding: 20px;
 }
 .trend i{
     color: rgb(255, 149, 0);
@@ -146,11 +154,11 @@ nav .logo{
     width: 44%;
     border-radius: 11px;
 }
-.blogCard .blogread{
+.blogCard .blogText{
     text-align: center;
     padding: 20px;
 }
-.blogread a{
+.blogText a{
     width: 90px;
     padding: 7px;
     background-color: red;
@@ -210,7 +218,7 @@ nav .logo{
 .footer{
     display: flex;
     justify-content: space-around;
-    background-color: #fff;
+    background-color: #A2C579;
     color: black;
     padding: 55px;
     margin-top: 55px;
