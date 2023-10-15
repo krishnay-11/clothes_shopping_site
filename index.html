@@ -3,26 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Balance</title>
+    <title>Urban Grove</title>
     <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     
 </head>
 <body>
     <div class="container">
-        <nav>
+        <nav style="height: 67px;">
             <div class="logo">
-                <h1>Shopping cart</h1>
+                <h1><img src="logo-no-background.png" height="40px" width="90px"></h1>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="search for items" id="search" style="
+    width: 400px;
+    border-radius: 15px;
+    padding: 4px 5px;
+">
             </div>
             <ul><a href="">Home</a>
-                <a href="">Cloths</a>
-                <a href="">Blogs</a>
-                <a href="">Review</a>
-                <a href="">Contact Us</a>
-                <button>Log In</button>
+                <a id="cloths" href="#cloth">Cloths</a>
+                <a id="blogs" href="#blog">Blogs</a>
+                <a id="reviews" href="#review">Review</a>
+                <a id="contacts" href="#contact">Contact Us</a>
+                <button id="login">Log In</button>
             </ul>
         </nav>
+
+        <!--login-->
+        <div class="loginPage">
+            <input type="text" placeholder="Enter Email" id="email">
+            <input type="password" placeholder="Enter pass" id="pass">
+            <button id="loged">Log In</button>
+        </div>
+
+        <!--main-->
         <div class="main">
-                <div class="maintext">
+                <div class="mainText">
                     <h1>Great Deals Exciting Offers</h1>
                     <h2>Saves Upto 40% Off</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, perspiciatis ipsum non amet quod beatae perferendis voluptate! <br>Voluptates optio pariatur adipisci, provident recusandae tenetur nobis alias at corrupti odit itaque molestiae magnam et quis dolore quos ipsam, iste a veniam.</p>
@@ -30,16 +47,16 @@
                 </div>
                 <img src="https://raw.githubusercontent.com/krishnay-11/clothes_shopping_site/main/Resource/main.avif" alt="">
             </div>
-            <div class="cloth">
+            <div class="cloth" id="cloth">
                 <div class="head">
-                    <h1>Trending Women <span>T-Shirts </span></h1>
+                    <h1>Trending Women <span>Wears </span></h1>
                 </div>
                 <div class="card">
                     <div class="trend">
                         <img src="https://github.com/krishnay-11/clothes_shopping_site/blob/main/Resource/g1.png?raw=true" alt="">
                         <div class="cardtext">
-                            <p>Trending T-Shirts</p>
-                            <h2>$10 Only</h2>
+                            <p> Punjabi Frok</p>
+                            <h2>Rs 2400 Only</h2>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -50,8 +67,8 @@
                     <div class="trend">
                         <img src="https://github.com/krishnay-11/clothes_shopping_site/blob/main/Resource/g2.jpg?raw=true" alt="">
                         <div class="cardtext">
-                            <p>Trending T-Shirts</p>
-                            <h2>$10 Only</h2>
+                            <p> Kurti</p>
+                            <h2>Rs 1999 Only</h2>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -62,8 +79,8 @@
                     <div class="trend">
                         <img src="https://github.com/krishnay-11/clothes_shopping_site/blob/main/Resource/g3.jpg?raw=true" alt="">
                         <div class="cardtext">
-                            <p>Trending T-Shirts</p>
-                            <h2>$10 Only</h2>
+                            <p> Lehenga</p>
+                            <h2>Rs 3500 Only</h2>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -75,14 +92,14 @@
             </div>
             <div class="cloth">
                 <div class="head">
-                    <h1>Trending Men <span>T-Shirts </span></h1>
+                    <h1>Trending Men <span>Wears </span></h1>
                 </div>
                 <div class="card">
                     <div class="trend">
                         <img src="https://github.com/krishnay-11/clothes_shopping_site/blob/main/Resource/m1.jpg?raw=true" alt="">
                         <div class="cardtext">
-                            <p>Trending T-Shirts</p>
-                            <h2>$10 Only</h2>
+                            <p>Denim Jacket</p>
+                            <h2>$1499 Only</h2>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -93,8 +110,8 @@
                     <div class="trend">
                         <img src="https://github.com/krishnay-11/clothes_shopping_site/blob/main/Resource/m2.jpg?raw=true" alt="">
                         <div class="cardtext">
-                            <p>Trending T-Shirts</p>
-                            <h2>$10 Only</h2>
+                            <p>Jeans</p>
+                            <h2>Rs 1999 Only</h2>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -105,8 +122,8 @@
                     <div class="trend">
                         <img src="https://github.com/krishnay-11/clothes_shopping_site/blob/main/Resource/m3.jpg?raw=true" alt="">
                         <div class="cardtext">
-                            <p>Trending T-Shirts</p>
-                            <h2>$10 Only</h2>
+                            <p>Sweat shirt</p>
+                            <h2>Rs 999 Only</h2>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -117,22 +134,22 @@
                 </div>
             </div>
             <!--blog-->
-            <div class="read">
+            <div class="read" id="blog">
                 <div class="head">
-                    <h1 >Read<span>Blog's</span></h1>
+                    <h1 >Read<span> Blog's</span></h1>
                 </div>
                 <div class="blog">
-                    <div class="blogcard">
+                    <div class="blogCard">
                         <img src="https://github.com/krishnay-11/clothes_shopping_site/blob/main/Resource/trendm.jpg?raw=true" alt="">
-                        <div class="blogread">
+                        <div class="blogText">
                             <h2>Men Trending T-Shirts </h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, velit!</p>
                             <a href="">Read more</a>
                         </div>
                     </div>
-                    <div class="blogcard">
+                    <div class="blogCard">
                         <img src="https://github.com/krishnay-11/clothes_shopping_site/blob/main/Resource/trendg.jpg?raw=true" alt="">
-                        <div class="blogread">
+                        <div class="blogText">
                             <h2>Girls Trending Top </h2>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, velit!</p>
                             <a href="">Read more</a>
@@ -141,7 +158,7 @@
                 </div>
             </div>
             <!--review-->
-            <div class="review">
+            <div class="review" id="review">
                 <div class="head">
                     <h1>Customer <span>Review</span></h1>
                     <div class="customer">
@@ -173,21 +190,23 @@
                 </div>
             </div>
             <!--Contact-->
-            <div class="contact">
+            <div class="contact" id="contact">
                 <div class="head">
-                    <h1>Contact<span>Us</span></h1>
+                    <h1>Contact<span> Us</span></h1>
                 </div>
-                <div class="contactpage">
+                <div class="contactPage">
                     <input type="text" placeholder="Name" id="name">
-                    <input type="text" placeholder="Password" id="pass">
-                    <button id="Submit">Submit</button>
+                    <input type="password" placeholder="Password" id="pass">
+                    <button id="submit">Submit</button>
                 </div>
             </div>
             <!--footer-->
             <div class="footer">
                 <div class="text">
                     <h2>About us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ut nam sed aut corrupti doloribus esse delectus, aliquid nemo non?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+                         Necessitatibus ut nam sed aut corrupti doloribus esse delectus,<br>
+                          aliquid nemo non?</p>
                 </div>
                 <div class="text">
                     <h2>Product</h2>
@@ -212,5 +231,6 @@
             </div>
     </div>
     <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/7152b55f48.js" crossorigin="anonymous"></script>
 </body>
 </html>
